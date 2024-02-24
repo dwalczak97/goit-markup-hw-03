@@ -2,9 +2,14 @@ body {
   color: #434455;
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
+  margin: 0;
 }
 a {
   text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .logo {
@@ -46,6 +51,9 @@ a {
   color: #434455;
   font-style: normal;
 }
+.contacts-list {
+  list-style: none;
+}
 .contacts-one {
   color: #434455;
 }
@@ -83,7 +91,6 @@ a {
 }
 .btn:hover {
   background-color: #404bbf;
-  color: #404bbf;
 }
 .btn:focus {
   background-color: #404bbf;
@@ -161,7 +168,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.end {
+footer {
   background: #2e2f42;
 }
 .paragraph-footer {
@@ -170,6 +177,13 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.conteiner {
+.container {
   width: 1158px;
+  display: flex;
+}
+.page-header {
+  display: flex;
+}
+.menu-list {
+  list-style: none;
 }
