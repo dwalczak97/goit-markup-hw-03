@@ -21,6 +21,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 24px 0;
 }
 .logo2 {
   color: #2e2f42;
@@ -132,14 +133,14 @@ img {
   background: #f4f4fd;
   width: 1440px;
   height: 732px;
-  psdding: 120px 0;
+  padding: 120px 0;
 }
 .list-team {
   background: #fff;
   list-style: none;
   display: flex;
-  flex-basis: calc((100% - 3 * 24px) / 4),
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .third-heading {
@@ -179,6 +180,7 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .portfolio-second-heading {
   font-weight: 500;
@@ -201,6 +203,7 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 .container {
   width: 1158px;
@@ -225,8 +228,6 @@ footer {
 }
 .list-features {
   list-style: none;
-}
-.list-features {
   width: 264px;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
@@ -243,8 +244,9 @@ footer {
 .portfolio {
   margin: 0;
   display: flex;
-
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .list-portfolio {
   list-style: none;
@@ -262,4 +264,18 @@ footer {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.name {
+  padding: 32px 16px;
+}
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
+.end {
+  padding: 100px 0;
 }
