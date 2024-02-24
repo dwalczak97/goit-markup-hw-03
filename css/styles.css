@@ -20,6 +20,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo2 {
   color: #2e2f42;
@@ -27,7 +28,9 @@ img {
 .logo-footer {
   color: #f4f4fd;
 }
-
+.list-navigation {
+  padding: 24px 0;
+}
 .navigation {
   color: #2e2f42;
   font-size: 16px;
@@ -50,9 +53,13 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
+  display: flex;
 }
 .contacts-list {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 .contacts-one {
   color: #434455;
@@ -71,6 +78,7 @@ img {
   text-align: center;
   width: 1440px;
   height: 600px;
+  padding: 188px 0;
 }
 .section-one-heading {
   color: #ffffff;
@@ -96,7 +104,9 @@ img {
   background-color: #404bbf;
   color: #404bbf;
 }
-
+.section-features {
+  padding: 120px 0;
+}
 .heading-features {
   font-weight: 500;
   font-size: 20px;
@@ -180,12 +190,24 @@ footer {
 }
 .container {
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.menu-container {
   display: flex;
+}
+.menu {
+  display: flex;
+  align-items: center;
 }
 .menu-list {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 .list-features {
   list-style: none;
