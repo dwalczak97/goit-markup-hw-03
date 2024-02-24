@@ -194,6 +194,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 footer {
   background: #2e2f42;
@@ -275,7 +276,12 @@ footer {
 .app {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .end {
   padding: 100px 0;
+}
+.logo-link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
