@@ -203,3 +203,14 @@ footer {
   gap: 24px;
   justify-content: center;
 }
+.portfolio {
+  margin: 0;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.list-portfolio {
+  list-style: none;
+  max-width: 360px;
+  width: calc((100% - 24px) / 2);
+}
