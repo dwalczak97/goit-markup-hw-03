@@ -117,6 +117,7 @@ img {
 }
 .list-team {
   background: #fff;
+  list-style: none;
 }
 
 .section-third-heading {
@@ -179,11 +180,26 @@ footer {
 }
 .container {
   width: 1158px;
-  display: flex;
 }
 .page-header {
   display: flex;
 }
 .menu-list {
   list-style: none;
+}
+.list-features {
+  list-style: none;
+}
+.features .list-features {
+  width: 264px;
+}
+.features {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.team-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
 }
