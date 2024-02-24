@@ -120,6 +120,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .section-second-paragraph {
   font-size: 16px;
@@ -131,13 +132,17 @@ img {
   background: #f4f4fd;
   width: 1440px;
   height: 732px;
+  psdding: 120px 0;
 }
 .list-team {
   background: #fff;
   list-style: none;
+  display: flex;
+  flex-basis: calc((100% - 3 * 24px) / 4),
+  border-radius: 0px 0px 4px 4px;
 }
 
-.section-third-heading {
+.third-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -145,6 +150,7 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .list-team-heading {
@@ -154,8 +160,9 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
-.section-third-paragraph {
+.third-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -219,8 +226,9 @@ footer {
 .list-features {
   list-style: none;
 }
-.features .list-features {
+.list-features {
   width: 264px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .features {
   display: flex;
@@ -242,4 +250,16 @@ footer {
   list-style: none;
   max-width: 360px;
   width: calc((100% - 24px) / 2);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
