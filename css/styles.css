@@ -224,7 +224,7 @@ footer {
 .menu-list {
   list-style: none;
   display: flex;
-  justify-content: center;
+
   gap: 40px;
 }
 .list-features {
@@ -235,12 +235,10 @@ footer {
 .features {
   display: flex;
   gap: 24px;
-  justify-content: center;
 }
 .team-container {
   display: flex;
   gap: 24px;
-  justify-content: center;
 }
 .portfolio {
   margin: 0;
@@ -291,6 +289,5 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
-  padding: 24px 0;
+  margin-bottom: 16px;
 }
