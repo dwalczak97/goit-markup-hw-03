@@ -72,12 +72,7 @@ img {
 .contacts-one:focus {
   color: #404bbf;
 }
-.container-section-one {
-  display: flex;
-  align-items: center;
 
-  flex-direction: column;
-}
 .section-one {
   background-color: #2e2f42;
 
