@@ -38,6 +38,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .navigation:hover {
@@ -188,13 +189,13 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-paragraph {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 footer {
   background: #2e2f42;
@@ -230,7 +231,7 @@ footer {
 .list-features {
   list-style: none;
   width: 264px;
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .features {
   display: flex;
@@ -290,4 +291,7 @@ footer {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+}
+.container-third {
+  padding: 32px 16px;
 }
