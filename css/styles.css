@@ -21,7 +21,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  padding: 24px 0;
 }
 .logo2 {
   color: #2e2f42;
@@ -38,7 +37,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 
 .navigation:hover {
@@ -55,12 +53,11 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
-  display: flex;
 }
 .contacts-list {
   list-style: none;
   display: flex;
-  justify-content: center;
+  align-items: center;
   gap: 40px;
 }
 .contacts-one {
@@ -75,11 +72,15 @@ img {
 .contacts-one:focus {
   color: #404bbf;
 }
+.container-section-one {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
 .section-one {
   background-color: #2e2f42;
-  text-align: center;
-  width: 1440px;
-  height: 600px;
+
   padding: 188px 0;
 }
 .section-one-heading {
@@ -101,6 +102,7 @@ img {
   cursor: pointer;
   display: block;
   min-width: 169px;
+  max-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
@@ -214,9 +216,6 @@ footer {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.menu-container {
-  display: flex;
-}
 .menu {
   display: flex;
   align-items: center;
@@ -224,7 +223,7 @@ footer {
 .menu-list {
   list-style: none;
   display: flex;
-
+  align-items: center;
   gap: 40px;
 }
 .list-features {
@@ -248,7 +247,7 @@ footer {
 }
 .list-portfolio {
   list-style: none;
-  max-width: 360px;
+
   width: calc((100% - 24px) / 2);
 }
 .visually-hidden {
@@ -292,4 +291,8 @@ footer {
 }
 .container-third {
   padding: 0px 16px;
+}
+.container-menu {
+  display: flex;
+  min-width: 1440px;
 }
