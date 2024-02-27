@@ -220,7 +220,7 @@ footer {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
+  /*display: flex;*/
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -257,7 +257,7 @@ footer {
 }
 .list-portfolio {
   list-style: none;
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .visually-hidden {
   position: absolute;
@@ -296,4 +296,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.footer .container {
+  display: block;
 }
