@@ -11,7 +11,17 @@ img {
   display: block;
   max-width: 100%;
 }
-
+h2,
+h3 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -29,6 +39,7 @@ img {
   color: #f4f4fd;
 }
 .list-navigation {
+  padding: 24px 0;
 }
 .navigation {
   color: #2e2f42;
@@ -260,7 +271,7 @@ footer {
   overflow: hidden;
 }
 .name {
-  padding: 0px 16px;
+  padding: 32px 0px;
 }
 .section-portfolio {
   padding-top: 120px;
@@ -284,5 +295,4 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
 }
