@@ -90,7 +90,12 @@ p {
 .section-one {
   background-color: #2e2f42;
   padding: 188px 0;
+}
+.container-one-heading {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .section-one-heading {
   color: #ffffff;
@@ -99,8 +104,6 @@ p {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-
-  justify-content: center;
 }
 .btn {
   font-family: "Roboto", sans-serif;
@@ -113,11 +116,9 @@ p {
   cursor: pointer;
   display: block;
   min-width: 169px;
-  max-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
 }
 .btn:hover {
   background-color: #404bbf;
@@ -148,10 +149,13 @@ p {
   background: #f4f4fd;
   padding: 120px 0;
 }
+.team-conteiner {
+  display: flex;
+}
 .list-team {
   background: #fff;
   list-style: none;
-  display: flex;
+
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
