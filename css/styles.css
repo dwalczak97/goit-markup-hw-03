@@ -90,6 +90,7 @@ p {
 .section-one {
   background-color: #2e2f42;
   padding: 188px 0;
+  display: flex;
 }
 .section-one-heading {
   color: #ffffff;
@@ -98,6 +99,8 @@ p {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+
+  justify-content: center;
 }
 .btn {
   font-family: "Roboto", sans-serif;
@@ -220,7 +223,6 @@ footer {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  /*display: flex;*/
 }
 .page {
   display: flex;
@@ -299,7 +301,4 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-.footer .container {
-  display: block;
 }
